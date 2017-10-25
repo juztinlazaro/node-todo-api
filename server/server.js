@@ -5,45 +5,22 @@ var fs = require('fs');
 var { mongoose } = require('./db/mongoose.js')
 var { TodoModel } = require('./models/todo.model');
 var { UserModel } = require('./models/user.model');
+var { todoGetRouter } = require('./route/get');
+var { todoPostRouter } = require('./route/post');
 
 
 var app = express();
 
 app.use(bodyParser.json());
 
-app.post('/todos', (req, res) => {
-	var todo = new TodoModel({
-		text: req.body.text
-	});
+// This is not namespaced. All routes are as they appear in routes/todo.js
+app.use(todoGetRouter);
+app.use(todoPostRouter);
 
-	var postlogObj = {
-		timeStamp: Date()
-	};
-	
-	console.log('Request info', JSON.stringify(postlogObj, undefined, 2));
+// This is namespaced. All routes in routes/user.js will need "/users" before them.
+// For example GET /me does not exist. GET /users/me does exist.
+// app.use('/users', userRouter);
 
-	todo.save().then((doc) => {
-		//send back the user info
-		res.send(doc);
-		postlogObj["data"] = doc;
-		fs.writeFileSync('post-log.json', JSON.stringify(postlogObj));	
-	}, (err) => {
-		res.status(400).send(err);
-		postlogObj["data"] = err;
-		fs.writeFileSync('post-log.json', JSON.stringify(postlogObj));	
-	});
-});
-
-app.get('/todos', (req, res) => {
-	TodoModel.find().then((todos) => {
-		res.send({
-			todos,
-			status: 200
-		});
-	}, (e) => {
-		res.status(400).send(e);
-	});
-});
 
 app.listen(3000, () => {
  console.log('Started on port 3000');

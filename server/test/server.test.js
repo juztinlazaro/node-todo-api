@@ -7,7 +7,7 @@ const { TodoModel } = require('./../models/todo.model');
 const todos = [{
  text: 'First test todo'
 }, {
-	text: 'Secibnd test todi'
+	text: 'Secobnd test todo'
 }];
 
 //wipe all of todos for testing
