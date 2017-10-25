@@ -18,17 +18,17 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
 		console.log(JSON.stringify(result.ops, undefined, 2));
 	});
 
-// 	db.collection('Users').insertOne({
-// 		name: 'Justin dasdasdsa',
-// 		age: 25,
-// 		location: 'Santolan Pasig'
-// 	}, (err, result) => {
-// 		if(err) {	
-// 			return console.log('Some wrong inserting the data in users', error);
-// 		}
+	db.collection('Users').insertOne({
+		name: 'Justin dasdasdsa',
+		age: 25,
+		location: 'Santolan Pasig'
+	}, (err, result) => {
+		if(err) {	
+			return console.log('Some wrong inserting the data in users', error);
+		}
 
-// 		console.log(result.ops[0]._id.getTimestamp());
-// 	});
+		console.log(result.ops[0]._id.getTimestamp());
+	});
  
 	db.close();
 });
