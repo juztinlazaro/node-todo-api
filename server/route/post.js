@@ -1,15 +1,8 @@
-var express = require('express');
-var bodyParser = require('body-parser');
+const { app } = require('./../server');
 var fs = require('fs');
 
-var { mongoose } = require('./db/mongoose.js')
-var { TodoModel } = require('./models/todo.model');
-var { UserModel } = require('./models/user.model');
-
-
-var app = express();
-
-app.use(bodyParser.json());
+var { mongoose } = require('../db/mongoose.js')
+var { TodoModel } = require('../models/todo.model');
 
 app.post('/todos', (req, res) => {
 	var todo = new TodoModel({
@@ -33,20 +26,3 @@ app.post('/todos', (req, res) => {
 		fs.writeFileSync('post-log.json', JSON.stringify(postlogObj));	
 	});
 });
-
-app.get('/todos', (req, res) => {
-	TodoModel.find().then((todos) => {
-		res.send({
-			todos,
-			status: 200
-		});
-	}, (e) => {
-		res.status(400).send(e);
-	});
-});
-
-app.listen(3000, () => {
- console.log('Started on port 3000');
-});
-
-module.exports = { app };
