@@ -31,7 +31,7 @@ todoGetByIdRouter.get('/todos/:id', (req, res) => {
 			console.log('Todos', todo);
 		}
 	}).catch((error) => {
-		res.status(400).send({
+		res.status(404).send({
 			statusMessage: 'ID is not valid',
 			error: error
 		});

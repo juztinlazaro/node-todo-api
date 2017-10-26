@@ -14,6 +14,7 @@ var { route } = require('./server/route/routes');
 
 
 var app = express();
+const port = process.env.PORT || 3000;
 
 //registerPartials advance templating used for include 
 hbs.registerPartials(__dirname + '/views/partials');
@@ -53,8 +54,8 @@ app.use(route);
 // app.use('/users', userRouter);
 
 
-app.listen(3000, () => {
- console.log('Started on port 3000');
+app.listen(port, () => {
+ console.log(`Started up at port ${port}`);
 });
 
 module.exports = { app };

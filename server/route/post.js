@@ -12,17 +12,15 @@ todoPostRouter.post('/todos', (req, res) => {
 		timeStamp: Date()
 	};
 	
-	console.log('Request info', JSON.stringify(postlogObj, undefined, 2));
-
 	todo.save().then((doc) => {
 		//send back the user info
 		res.send(doc);
 		postlogObj["data"] = doc;
-		fs.writeFileSync('server/logs/post-log.json', JSON.stringify(postlogObj));	
+		fs.appendFile('server/logs/post-log.json', JSON.stringify(postlogObj, undefined, 2));	
 	}, (err) => {
 		res.status(400).send(err);
 		postlogObj["data"] = err;
-		fs.writeFileSync('server/logs/post-log.json', JSON.stringify(postlogObj));	
+		fs.appendFile('server/logs/post-log.json', JSON.stringify(postlogObj, undefined, 2));	
 	});
 });
 

@@ -11,13 +11,13 @@ const todos = [{
 }];
 
 //wipe all of todos for testing
-beforeEach((done) => {
-  TodoModel.remove({}).then(() => {
-    return TodoModel.insertMany(todos);
-  }).then(() => done());
-});
-
 describe('POST/todos', () => {
+	beforeEach((done) => {
+	  TodoModel.remove({}).then(() => {
+	    return TodoModel.insertMany(todos);
+	  }).then(() => done());
+	});
+	
 	it('should create a new todo', (done) => {
 		var text = "Yoww";
 		request(app)
