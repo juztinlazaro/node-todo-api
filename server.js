@@ -3,19 +3,20 @@ var bodyParser = require('body-parser');
 const hbs = require('hbs');
 var fs = require('fs');
 
-var { mongoose } = require('./db/mongoose.js')
-var { TodoModel } = require('./models/todo.model');
-var { UserModel } = require('./models/user.model');
-var { todoGetRouter } = require('./route/get');
-var { todoPostRouter } = require('./route/post');
-var { todoGetByIdRouter } = require('./route/getById');
-var { route } = require('./route/routes');
+var { mongoose } = require('./server/db/mongoose.js')
+var { TodoModel } = require('./server/models/todo.model');
+var { UserModel } = require('./server/models/user.model');
+
+var { todoGetRouter } = require('./server/route/get');
+var { todoPostRouter } = require('./server/route/post');
+var { todoGetByIdRouter } = require('./server/route/getById');
+var { route } = require('./server/route/routes');
 
 
 var app = express();
 
 //registerPartials advance templating used for include 
-hbs.registerPartials(__dirname + '..//views/partials');
+hbs.registerPartials(__dirname + '/views/partials');
 //apply handlebards
 app.set('view engine', 'hbs');
 

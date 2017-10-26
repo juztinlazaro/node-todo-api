@@ -16,3 +16,30 @@ UserModel.findById(id).then((user) => {
 		console.log('ID NOT VALID');
 	}
 });
+
+
+//find by specific data
+TodoModel.find({
+	_id: id
+}).then((todos) => {
+	console.log('Todos', todos);
+});
+
+//find first item 
+TodoModel.findOne({
+  _id: id
+}).then((todo) => {
+	console.log('Todo', todo);
+});
+
+//easy af find id
+TodoModel.findById(id).then((todo) => {
+	if(!todo) {
+		return console.log('Id not found');
+	}
+	console.log('Todo by id', todo);
+}).catch((e) => {
+	if(!ObjectID.isValid(id)) {
+	  console.log('ID NOT VALID');
+  }
+});

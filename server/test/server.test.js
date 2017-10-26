@@ -1,20 +1,20 @@
 const expect = require('expect');
 const request = require('supertest');
 
-const { app } = require('./../server');
+const { app } = require('../../server');
 const { TodoModel } = require('./../models/todo.model');
 
 const todos = [{
  text: 'First test todo'
-}, {
+	}, {
 	text: 'Secobnd test todo'
 }];
 
 //wipe all of todos for testing
 beforeEach((done) => {
-	TodoModel.remove({}).then(() => {
-		return TodoModel.insertMany(todos);
-	}).then(() => done());
+  TodoModel.remove({}).then(() => {
+    return TodoModel.insertMany(todos);
+  }).then(() => done());
 });
 
 describe('POST/todos', () => {
