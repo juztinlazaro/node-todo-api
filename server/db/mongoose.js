@@ -8,7 +8,6 @@ mongoose.Promise = global.Promise;
 //old approach
 //connect to mongodb
 // mongoose.connect('mongodb://localhost:27017/TodoApp');
-
 //db
 let db;
 var env = process.env.NODE_ENV || 'development';
