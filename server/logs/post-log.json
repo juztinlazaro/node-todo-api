@@ -1465,4 +1465,22 @@
     "message": "Todos validation failed: text: Path `text` is required.",
     "name": "ValidationError"
   }
+}{
+  "timeStamp": "Fri Oct 27 2017 06:11:11 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Something shit",
+    "_id": "59f25d7fd633f41dd079acf9",
+    "completedAt": null,
+    "completed": false
+  }
+}{
+  "timeStamp": "Fri Oct 27 2017 06:11:12 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Something shit",
+    "_id": "59f25d80d633f41dd079acfa",
+    "completedAt": null,
+    "completed": false
+  }
 }
