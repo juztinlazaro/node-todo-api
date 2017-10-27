@@ -10,6 +10,7 @@ var { UserModel } = require('./server/models/user.model');
 var { todoGetRouter } = require('./server/route/get');
 var { todoPostRouter } = require('./server/route/post');
 var { todoGetByIdRouter } = require('./server/route/getById');
+var { todoDeleteRouter } = require('./server/route/delete');
 var { route } = require('./server/route/routes');
 
 
@@ -47,6 +48,7 @@ app.use((req, res, next) => {
 app.use(todoGetRouter);
 app.use(todoGetByIdRouter);
 app.use(todoPostRouter);
+app.use(todoDeleteRouter);
 app.use(route);
 
 // This is namespaced. All routes in routes/user.js will need "/users" before them.
