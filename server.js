@@ -1,7 +1,7 @@
-var express = require('express');
-var bodyParser = require('body-parser');
+const express = require('express');
+const bodyParser = require('body-parser');
 const hbs = require('hbs');
-var fs = require('fs');
+const fs = require('fs');
 
 var { mongoose } = require('./server/db/mongoose.js')
 var { TodoModel } = require('./server/models/todo.model');
@@ -11,6 +11,7 @@ var { todoGetRouter } = require('./server/route/get');
 var { todoPostRouter } = require('./server/route/post');
 var { todoGetByIdRouter } = require('./server/route/getById');
 var { todoDeleteRouter } = require('./server/route/delete');
+var { todoUpdateRouter } = require('./server/route/update');
 var { route } = require('./server/route/routes');
 
 
@@ -49,6 +50,7 @@ app.use('/todos/get', todoGetRouter);
 app.use('/todos/get', todoGetByIdRouter);
 app.use('/todos/post', todoPostRouter);
 app.use('/todos/delete', todoDeleteRouter);
+app.use('/todos/update', todoUpdateRouter);
 app.use(route);
 
 // This is namespaced. All routes in routes/user.js will need "/users" before them.
