@@ -3,7 +3,7 @@ const todoGetRouter = express.Router();
 
 var { TodoModel } = require('../models/todo.model');
 
-todoGetRouter.get('/todos', (req, res) => {
+todoGetRouter.get('/', (req, res) => {
 	TodoModel.find().then((todos) => {
 		res.send({
 			todos,

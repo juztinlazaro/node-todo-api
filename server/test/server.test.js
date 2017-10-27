@@ -11,7 +11,7 @@ const todos = [{
 }];
 
 //wipe all of todos for testing
-describe('POST/todos', () => {
+describe('POST/todos/', () => {
 	beforeEach((done) => {
 	  TodoModel.remove({}).then(() => {
 	    return TodoModel.insertMany(todos);
@@ -21,7 +21,7 @@ describe('POST/todos', () => {
 	it('should create a new todo', (done) => {
 		var text = "Yoww";
 		request(app)
-			.post('/todos')
+			.post('/todos/post')
 			.send({text})
 			.expect(200)
 			.expect((res) => {
@@ -42,7 +42,7 @@ describe('POST/todos', () => {
 
 	it('Should not create todo with invalid body data', (done) => {
 		request(app)
-			.post('/todos')
+			.post('/todos/post')
 			.send({})
 			.expect(400)
 			.end((err, res) => {
@@ -60,7 +60,7 @@ describe('POST/todos', () => {
 	describe('GET /todos', () => {
 		it('should get all todos', (done) => {
 			request(app)
-				.get('/todos')
+				.get('/todos/get')
 				.expect(200)
 				.expect((res) => {
 					expect(res.body.todos.length).toBe(2);

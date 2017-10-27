@@ -13,7 +13,6 @@ const todos = [{
 	text: 'Secobnd test todo'
 }];
 
-
 describe('GET /TODOS/:id', () => {
 	//wipe all of todos for testing
 	beforeEach((done) => {
@@ -24,7 +23,7 @@ describe('GET /TODOS/:id', () => {
 
 	it('should return to doc', (done) => {
 		request(app)
-			.get(`/todos/${todos[0]._id.toHexString()}`)
+			.get(`/todos/get/${todos[0]._id.toHexString()}`)
 			.expect(200)
 			.expect((res) => {
 				expect(res.body.todo.text).toBe(todos[0].text);
@@ -35,14 +34,14 @@ describe('GET /TODOS/:id', () => {
 	it('should return 404 if todo not found', (done) => {
 		var hexId = new ObjectID().toHexString();
 		request(app)
-		.get(`/todos/${hexId}`)
+		.get(`/todos/get/${hexId}`)
 		.expect(404)
 		.end(done);
 	});
 
 	it('should return 404 for non object ids', (done) => {
 		request(app)
-			.get('/todos/1234ab')
+			.get('/todos/get/1234ab')
 			.expect(404)
 			.end(done);
 	});

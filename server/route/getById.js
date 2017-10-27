@@ -4,7 +4,7 @@ const todoGetByIdRouter = express.Router();
 
 var { TodoModel } = require('../models/todo.model');
 
-todoGetByIdRouter.get('/todos/:id', (req, res) => {
+todoGetByIdRouter.get('/:id', (req, res) => {
 	const id = req.params.id;
 
 	//Check first if the ID is valid

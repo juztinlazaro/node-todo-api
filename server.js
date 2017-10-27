@@ -45,10 +45,10 @@ app.use((req, res, next) => {
 // });
 
 // This is not namespaced. All routes are as they appear in routes/todo.js
-app.use(todoGetRouter);
-app.use(todoGetByIdRouter);
-app.use(todoPostRouter);
-app.use(todoDeleteRouter);
+app.use('/todos/get', todoGetRouter);
+app.use('/todos/get', todoGetByIdRouter);
+app.use('/todos/post', todoPostRouter);
+app.use('/todos/delete', todoDeleteRouter);
 app.use(route);
 
 // This is namespaced. All routes in routes/user.js will need "/users" before them.

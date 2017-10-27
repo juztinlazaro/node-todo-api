@@ -3,7 +3,7 @@ const todoDeleteRouter = express.Router();
 
 var { TodoModel } = require('../models/todo.model');
 
-todoDeleteRouter.delete('/todos/:id', (req, res) => {
+todoDeleteRouter.delete('/:id', (req, res) => {
 	const id = req.params.id;
 
 	TodoModel.findByIdAndRemove(id).then((todo) => {
