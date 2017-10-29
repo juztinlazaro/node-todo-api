@@ -18,12 +18,13 @@ var app = express();
 
 //registerPartials advance templating used for include 
 hbs.registerPartials(__dirname + '/views/partials');
-//apply handlebards
+//apply handlebards / for templating
 app.set('view engine', 'hbs');
 
 //Middleware
 app.use(bodyParser.json());
 //middleware for static html or file
+
 //custom
 app.use((req, res, next) => {
 	var now = new Date().toString();
@@ -43,18 +44,7 @@ app.use((req, res, next) => {
 // 	res.render('maintenance.hbs');	
 // });
 
-// This is not namespaced. All routes are as they appear in routes/todo.js
-app.use('/todos/get', todoGetRouter);
-app.use('/todos/get', todoGetByIdRouter);
-app.use('/todos/post', todoPostRouter);
-app.use('/todos/delete', todoDeleteRouter);
-app.use('/todos/update', todoUpdateRouter);
 app.use(route);
-
-// This is namespaced. All routes in routes/user.js will need "/users" before them.
-// For example GET /me does not exist. GET /users/me does exist.
-// app.use('/users', userRouter);
-
 
 app.listen(port, () => {
  console.log(`Started up at port ${port}`);

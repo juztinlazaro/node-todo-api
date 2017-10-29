@@ -12,16 +12,23 @@ todoPostRouter.post('/', (req, res) => {
 		timeStamp: Date()
 	};
 	
-	todo.save().then((doc) => {
+	todo.save().then((todo) => {
 		//send back the user info
-		res.send(doc);
-		postlogObj["data"] = doc;
-		fs.appendFile('server/logs/post-log.json', JSON.stringify(postlogObj, undefined, 2), (err) => {
+		res.send({
+			todo,
+			status: 200,
+			statusMessage: 'Success'
+		});
+		postlogObj["data"] = todo;
+		fs.appendFile('server/logs/post-log.json', JSON.stringify(postlogObj, undefined, 2) + ',', (err) => {
 			if(err) throw err;
 			console.log('data to append was appended to file!');
 		});	
 	}, (err) => {
-		res.status(400).send(err);
+		res.status(400).send({
+			error: err,
+			status: 400
+		});
 		postlogObj["data"] = err;
 		fs.appendFile('server/logs/post-log.json', JSON.stringify(postlogObj, undefined, 2), (err) => {
 			if(err) throw err;

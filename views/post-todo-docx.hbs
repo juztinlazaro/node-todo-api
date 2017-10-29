@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{pageTitle}}</title>
+</head>
+<body style="padding: 5%;">
+	{{> header}}
+		<section>
+			<h1>DOCUMENTATION: POST/TODO</h1>
+			<h4>
+				Method: POST
+			</h4>
+
+			<h4>
+				Endpoints:  <br>
+				<pre>
+					development - localhost:3030/todos/post <br>
+					production - https://mysterious-shelf-25702.herokuapp.com/todos/post <br>
+				</pre>
+			</h4>
+
+			<hr>
+
+			<h4>
+				Attributes:
+				<ul>
+					<li>
+						text: String | required
+					</li>
+
+					<li>
+						createdAt: Date
+					</li>
+
+					<li>
+						completedAt: boolean
+					</li>
+				</ul>
+			</h4>
+
+			<h4>
+				Success Response: 
+				<pre>
+					{
+					    "todo": {
+					        "__v": 0,
+					        "text": "IM NEW :)",
+					        "_id": "59f644af512d901a6c1e5a49",
+					        "completedAt": null,
+					        "completed": false
+					    },
+					    "status": 200,
+					    "statusMessage": "Success"
+					}
+				</pre>
+			</h4>
+		</section>
+ 	{{> footer}}
+</body>
+</html>

@@ -1,4 +1,6 @@
-//SET inter
+//MODEL , INSERT example
+
+//SET intsert
 // var newTodo = new TodoModel({
 // 	text: 'Cook Lunch'
 // });
