@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const hbs = require('hbs');
 const fs = require('fs');
 
-var { mongoose } = require('./server/db/mongoose.js')
+var { mongoose, port } = require('./server/db/mongoose.js')
 var { TodoModel } = require('./server/models/todo.model');
 var { UserModel } = require('./server/models/user.model');
 
@@ -14,9 +14,7 @@ var { todoDeleteRouter } = require('./server/route/delete');
 var { todoUpdateRouter } = require('./server/route/update');
 var { route } = require('./server/route/routes');
 
-
 var app = express();
-const port = process.env.PORT || 3000;
 
 //registerPartials advance templating used for include 
 hbs.registerPartials(__dirname + '/views/partials');
