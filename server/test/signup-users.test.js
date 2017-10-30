@@ -11,12 +11,10 @@ describe('GET user/me', () => {
 		request(app)
 			.get('/users/me')
 			.set('x-auth', users[0].tokens[0].token)
-			// .expect(200)
+			.expect(200)
 			.expect((res) => {
-				console.log('users', users[0].tokens[0].token);
-				console.log('res', res.body);
-				// expect(res.body._id).toBe(users[0]._id.toHexString());
-				// expect(res.body.email).toBe(user[0].email.toHexString());
+				expect(res.body._id).toBe(users[0]._id.toHexString());
+				expect(res.body.email).toBe(user[0].email);
 			})
 			.end(done);
 	});
