@@ -45,8 +45,8 @@ UserSchema.methods.toJSON = function() {
 	var user = this;
 	var userObject = user.toObject();
 
-	return _pick(userObject, ['id', 'email'])
-};
+	return _pick(userObject, ['_id', 'email'])
+}; 
 
 //methods, is a object and instance method
 // we need to bind
@@ -65,6 +65,28 @@ UserSchema.methods.generateAuthToken = function () {
 
 	return user.save().then(() => {
 		return token;
+	});
+};
+
+//instance method
+UserSchema.statics.findByToken  = function(token) {
+	var User = this;
+	var decoded; 
+
+	try {
+		decoded = jwt.verify(token, 'abc123');
+	} catch(e) {
+		// return new Promise((resolve, reject) => {
+		// 	reject();
+		// })
+
+		return Promise.reject('Undefined token');
+	}
+
+	return User.findOne({
+		'_id': decoded._id,
+		'tokens.token': token,
+		'tokens.access': 'auth'
 	});
 };
 

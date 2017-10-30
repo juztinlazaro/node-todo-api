@@ -8,6 +8,7 @@ const { todoDeleteRouter } = require('./delete');
 const { todoUpdateRouter } = require('./update');
 
 const { userPostRouter } = require('./post_user');
+const { userGetMeRouter } = require('./get-users-me');
 
 //VIEWS / PAGES
 route.get('/', (request, response) => {
@@ -36,5 +37,6 @@ route.use('/todos/delete', todoDeleteRouter);
 route.use('/todos/update', todoUpdateRouter);
 
 route.use('/user/post', userPostRouter);
+route.use('/user/me', userGetMeRouter);
 
 module.exports = { route };
