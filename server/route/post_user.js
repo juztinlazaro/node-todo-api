@@ -14,12 +14,6 @@ userPostRouter.post('/', (req, res) => {
 			status: 200,
 			statusMessage: 'Success'
 		});
-	},(error) => {
-		console.log('errrrrrrrrrrrr', error);
-		res.status(400).send({
-			error,
-			status: 400
-		})
 	}).catch((error) => {
 		console.log('errrrrrrrrrrrr', error);
 		res.status(400).send({
