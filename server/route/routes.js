@@ -7,6 +7,8 @@ const { todoGetByIdRouter } = require('./getById');
 const { todoDeleteRouter } = require('./delete');
 const { todoUpdateRouter } = require('./update');
 
+const { userPostRouter } = require('./post_user');
+
 //VIEWS / PAGES
 route.get('/', (request, response) => {
 	// response.send('Hello express');
@@ -32,5 +34,7 @@ route.use('/todos/get', todoGetByIdRouter);
 route.use('/todos/post', todoPostRouter);
 route.use('/todos/delete', todoDeleteRouter);
 route.use('/todos/update', todoUpdateRouter);
+
+route.use('/user/post', userPostRouter);
 
 module.exports = { route };
