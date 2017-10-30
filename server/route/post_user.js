@@ -1,25 +1,38 @@
 const _ = require('lodash');
 const express = require('express');
 const userPostRouter = express.Router();
-const fs = require('fs');
+var fs = require('fs');
 const { UserModel } = require('../models/user.model');
 
 userPostRouter.post('/', (req, res) => {	
-	var body = _.pick(req.body, ['username', 'email', 'password']);
-	var user_data = new UserModel(body);
+	let body = _.pick(req.body, ["username", "email", "password"]);
+	
+	let newUser = new UserModel({
+		username: body.username,
+		email: body.email,
+		password: body.password
+	});
 
-	user_data.save().then((user) => {
-		res.status(200).send({
-			user,
+	var postlogObj = {
+		timeStamp: Date()
+	};
+
+	newUser.save().then((user) => {
+		return newUser.generateAuthToken();
+	})
+	.then((token) => {
+		console.log(token);
+		res.header('x-auth', token).status(200).send({
+			newUser,
 			status: 200,
-			statusMessage: 'Success'
-		});
-	}).catch((error) => {
-		console.log('errrrrrrrrrrrr', error);
+			statusMessage: 'User is saved'
+		})
+	})
+	.catch((error) => {
 		res.status(400).send({
 			error,
 			status: 400
-		})
+		});
 	});
 });
 
