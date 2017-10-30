@@ -3,20 +3,12 @@ const request = require('supertest');
 
 const { app } = require('../../server');
 const { TodoModel } = require('./../models/todo.model');
+const {todos, populateTodos} = require('./seed/seed');
 
-const todos = [{
- text: 'First test todo'
-	}, {
-	text: 'Secobnd test todo'
-}];
 
 //wipe all of todos for testing
 describe('POST/todos/', () => {
-	beforeEach((done) => {
-	  TodoModel.remove({}).then(() => {
-	    return TodoModel.insertMany(todos);
-	  }).then(() => done());
-	});
+	beforeEach(populateTodos);
 	
 	it('should create a new todo', (done) => {
 		var text = "Yoww";
@@ -25,7 +17,7 @@ describe('POST/todos/', () => {
 			.send({text})
 			.expect(200)
 			.expect((res) => {
-				expect(res.body.text).toBe(text);
+				expect(res.body.todo.text).toBe(text);
 			})
 			.end((err,res) => {
 				if(err) {

@@ -64,4 +64,2164 @@
     "completedAt": null,
     "completed": false
   }
-},
+},{
+  "timeStamp": "Tue Oct 31 2017 02:39:12 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f771d04fda1517285e03da",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:39:12 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:39:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f771e0253c6d2a7c60e152",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:39:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:40:57 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77239bcd43122d4819483",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:40:57 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:41:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7725391384a211c1ed643",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:41:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:42:25 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Secobnd test todo",
+    "_id": "59f77291b9c4c032846a5e73",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:42:25 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:42:44 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f772a48f277614d49b5122",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:42:44 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:43:09 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f772bda79980226041fa09",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:43:09 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:43:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f772d9ddb452085c697637",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:43:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:44:20 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77304e91c952538120f92",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:44:20 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:44:47 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7731fe041d50f106965ff",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:44:47 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:45:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f773317577851ea4ac942c",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:45:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:45:16 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7733c9e490731c81fef84",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:45:16 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:45:42 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77356337ec23db88f21c7",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:45:42 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:46:00 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77368eb87db3b40a88ad3",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:46:00 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:47:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f773c9a2d00f387cb13aa5",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:47:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:48:04 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f773e41e3af433a8ac1332",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:48:04 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:48:35 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77403d720bf3284649a82",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:48:35 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:49:51 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7744f9cfc2916bce5fccc",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:49:51 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:50:04 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7745c99222740c0c4fb92",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:50:04 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:50:10 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77462e12c003d405d1150",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:50:10 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:54:19 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7755b86202546cc6eded4",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:54:19 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:54:48 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77578c528df3a0441d4f7",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:54:48 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 02:55:22 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7759a792ef5078c8a72a5",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 02:55:22 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:02:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7774dc1e5fc3facdbe80f",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:02:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:11:25 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7795d45add027f801e412",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:11:25 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:13:57 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f779f5b4cb6c2cac349886",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:13:57 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:14:54 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77a2e82ec763608d833ab",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:14:54 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:16:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77a8c0cb1ce3a3ceda5d6",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:16:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:16:45 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77a9d0ed77d2718252b25",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:16:45 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:17:35 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77acf466a02465838c42e",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:17:35 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:20:07 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77b675046384390710e2e",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:20:07 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:24:17 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77c612268cc3228817512",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:24:17 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:24:30 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77c6ea0399642787ff817",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:24:30 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:28:33 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77d6162548f3b10500d72",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:28:33 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:28:51 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77d732108762e4c7428d7",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:28:51 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 03:29:16 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f77d8cfa3a602c44c50cd6",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 03:29:16 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:09:47 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a32b097ca718ac6ade34",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:09:47 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:10:52 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a36cb0eb8f121cf1f190",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:10:52 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:11:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a3999741b61c647ad09f",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:11:38 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:12:22 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a3c69699081a0c2d4aa6",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:12:22 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:13:19 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a3ff929039434caf7946",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:13:19 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:16:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a4a5c53fa62540baf9eb",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:16:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:16:26 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a4ba451f72438478f929",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:16:27 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:22:38 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a62ef7fa743358d18aed",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:22:38 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:23:32 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a6641aa0e00cb409d6bc",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:23:32 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:24:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a69cbcdbed37901b9fe7",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:24:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:25:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a6d3a781212a18c1be33",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:25:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:27:55 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a76b59424c427ca9380c",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:27:55 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:28:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a78cd03c8218fc9f427d",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:28:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:28:31 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a78ff7286d246c03438b",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:28:31 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:28:33 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a7910cd8413964e44b07",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:28:33 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:29:36 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a7d0c739d4318c45817a",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:29:36 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:30:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a7ff0e193b03144ee65e",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:30:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:30:59 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a8238daf3e0998bcdd90",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:30:59 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:32:30 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a87ebdc05a1d1cc7610c",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:32:30 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:33:14 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a8aa99dc9f4520974730",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:33:14 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:33:32 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a8bc17dbbb3de8205b6d",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:33:32 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:33:46 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a8cac0f0ef0abccaa154",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:33:46 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:34:24 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a8f020341c1d68571110",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:34:24 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:34:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a8fd7ae7a621087ff652",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:34:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:36:33 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a971469cac42d849c701",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:36:33 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:36:44 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a97c8ab3d715ec0da59a",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:36:44 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:38:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7a9ed2360271be8864ed3",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:38:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:39:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aa1b0609ae3ae0d7c0f4",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:39:23 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:40:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aa4578440c01bc2f44fe",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:40:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:40:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aa5c36673630f0f6ac8e",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:40:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:40:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aa65098d9113bcc7c22a",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:40:37 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:41:13 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aa89cc6c3814a8a0df1a",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:41:13 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:41:36 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aaa0c0c3b80db0aa0a75",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:41:36 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:42:06 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aabe63ed3325f82cd21d",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:42:06 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:42:18 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7aaca35af6d45fcad5978",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:42:18 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Tue Oct 31 2017 06:48:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_id": "59f7ac3c044b96348c68e721",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Tue Oct 31 2017 06:48:28 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}

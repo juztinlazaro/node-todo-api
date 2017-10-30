@@ -36,7 +36,7 @@ route.use('/todos/post', todoPostRouter);
 route.use('/todos/delete', todoDeleteRouter);
 route.use('/todos/update', todoUpdateRouter);
 
-route.use('/user/post', userPostRouter);
-route.use('/user/me', userGetMeRouter);
+route.use('/users/post', userPostRouter);
+route.use('/users/me', userGetMeRouter);
 
 module.exports = { route };

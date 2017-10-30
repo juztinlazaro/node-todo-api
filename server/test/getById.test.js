@@ -4,22 +4,11 @@ const { ObjectID } = require('mongodb');
 
 const { app } = require('../../server');
 const { TodoModel } = require('./../models/todo.model');
-
-const todos = [{
-	_id: new ObjectID(),
-  text: 'First test todo'
-}, {
-	_id: new ObjectID(),
-	text: 'Secobnd test todo'
-}];
+const {todos, populateTodos} = require('./seed/seed');
 
 describe('GET /TODOS/:id', () => {
 	//wipe all of todos for testing
-	beforeEach((done) => {
-	 TodoModel.remove({}).then(() => {
-	     return TodoModel.insertMany(todos)
-	 }).then(() => done());
-	});
+	beforeEach(populateTodos);
 
 	it('should return to doc', (done) => {
 		request(app)

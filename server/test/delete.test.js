@@ -4,22 +4,10 @@ const { ObjectID } = require('mongodb');
 
 const { app } = require('../../server');
 const { TodoModel } = require('./../models/todo.model');
-
-const todos = [{
-	_id: new ObjectID(),
-  text: 'First test todo'
-}, {
-	_id: new ObjectID(),
-	text: 'Second test todo'
-}];
-
+const {todos, populateTodos} = require('./seed/seed');
 
 describe('DELETE /todos/', () => {
-	beforeEach((done) => {
-		TodoModel.remove({}).then(() => {
-			return TodoModel.insertMany(todos);
-		}).then(() => done());
-	});
+	beforeEach(populateTodos);
 
 	it('should remove a todo', (done) => {
 		var hexId = todos[1]._id.toHexString()
