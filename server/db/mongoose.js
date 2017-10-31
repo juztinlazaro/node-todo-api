@@ -1,5 +1,12 @@
 const mongoose = require('mongoose');
 const { ObjectID } = require('mongodb');
+const { db_test, 
+	db_prod,
+	db_dev,
+	port_test, 
+	port_prod,
+	port_dev 
+} = require('./credentials.js')
 
 //We can use callback in mongoose by default, but nah
 // promise is love. Tell mongoose which promise library will use.
@@ -15,14 +22,14 @@ let port;
 var env = process.env.NODE_ENV || 'development';
 
 if(env === 'development') {
-	db = 'mongodb://localhost:27017/TodoApp';
-	port = 3000;
+	db = db_dev;
+	port = port_dev;
 } else if(env === 'production') {
-	db = 'mongodb://juztinlazaro:123456@ds235785.mlab.com:35785/todo-list';
-	port = process.env.PORT;
+	db = db_prod;
+	port = port_prod;
 } else if(env === 'test') {
-  db = 'mongodb://localhost:27017/TodoAppTest';
-  port = 5050;
+  db = db_dev;
+  port = port_test;
 }
 
 //New approach
