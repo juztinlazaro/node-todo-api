@@ -9,6 +9,7 @@ const { todoUpdateRouter } = require('./update');
 
 const { userPostRouter } = require('./post_user');
 const { userGetMeRouter } = require('./get-users-me');
+const { loginRoute } = require('./login');
 
 //VIEWS / PAGES
 route.get('/', (request, response) => {
@@ -38,5 +39,7 @@ route.use('/todos/update', todoUpdateRouter);
 
 route.use('/users/post', userPostRouter);
 route.use('/users/me', userGetMeRouter);
+
+route.use('/users/login', loginRoute);
 
 module.exports = { route };

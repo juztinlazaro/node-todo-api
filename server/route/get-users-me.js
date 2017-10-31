@@ -1,6 +1,5 @@
 const express = require('express');
 const userGetMeRouter = express.Router();
-const { UserModel } = require('../models/user.model');
 const { authenticate } = require('../middleware/authenticate');
 
 
