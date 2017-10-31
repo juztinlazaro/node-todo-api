@@ -28,7 +28,7 @@ if(env === 'development') {
 	db = db_prod;
 	port = port_prod;
 } else if(env === 'test') {
-  db = db_dev;
+  db = db_test;
   port = port_test;
 }
 
