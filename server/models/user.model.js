@@ -91,7 +91,7 @@ UserSchema.statics.findByToken  = function(token) {
 	});
 };
 
-//hashing
+//hashing password
 UserSchema.pre('save', function(next) {
 	var user = this;
 

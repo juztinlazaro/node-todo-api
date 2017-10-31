@@ -5,21 +5,56 @@ const { app } = require('../../server');
 const { UserModel } = require('./../models/user.model');
 const {users, populateUsers} = require('./seed/seed');
 
-describe('GET user/me', () => {
+describe('POST user/me', () => {
+	//wipe all of todos for testing
 	beforeEach(populateUsers);
-	it('should return user if authenticated', (done) => {
+
+	it('should return if the user is create', (done) => {
+		var username = 'juztinlazarodasda'
+	  var email = 'example@gmail.com';
+	  var password = '12343asdas!';
 		request(app)
-			.get('/users/me')
-			.set('x-auth', users[0].tokens[0].token)
+			.post('/users/post')
+			.send({username, email, password})
 			.expect(200)
 			.expect((res) => {
-				expect(res.body._id).toBe(users[0]._id.toHexString());
-				expect(res.body.email).toBe(user[0].email);
+				expect(res.headers['x-auth']).toExist();
 			})
-			.end(done);
+			.end((err) => {
+				if(err) {
+					return done(err);
+				}
+
+				UserModel.findOne({email}).then((user) => {
+					expect(user).toExist();
+					expect(user.password).toNotBe(password);
+					done();
+				});
+			})
 	});
 
-	it('should return 401 if not authenticated', (done) => {
-
+	it('should return validation errors if request is invalid', (done) => {
+		request(app)
+			.post('/users/post')
+			.send({
+				email: 'and',
+				password: 'dsa'
+			})
+		  .expect(400)
+		  .end(done)
 	});
-});	
+
+	it('should not create user if email in user', (done) => {
+		var username = 'dasdsa';
+		var password = 'dsdadasas!';
+		request(app)
+			.post('/users/post')
+			.send({
+				username,
+				email: users[0].email,
+				password
+			})
+			.expect(400)
+			.end(done)
+	});
+});

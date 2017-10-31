@@ -41,9 +41,6 @@ describe('DELETE /todos/', () => {
 		request(app)
 			.delete('/todos/delete/321')
 			.expect(404)
-			.expect((res) => {
-				console.log(res.body);
-			})
 			.end(done);
 	});
 });

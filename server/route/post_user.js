@@ -21,7 +21,6 @@ userPostRouter.post('/', (req, res) => {
 		return newUser.generateAuthToken();
 	})
 	.then((token) => {
-		console.log(token);
 		res.header('x-auth', token).status(200).send({
 			newUser,
 			status: 200,

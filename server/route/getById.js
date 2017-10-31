@@ -9,7 +9,6 @@ todoGetByIdRouter.get('/:id', (req, res) => {
 
 	//Check first if the ID is valid
 	if(!ObjectID.isValid(id)) {
-		console.log('ID is not valid')
 		return res.status(404).send({
 			statusMessage: 'ID not valid',
 			status: 404
@@ -28,7 +27,6 @@ todoGetByIdRouter.get('/:id', (req, res) => {
 				status: 200,
 				statusMessage: 'Success!'
 			});
-			console.log('Todos', todo);
 		}
 	}).catch((error) => {
 		res.status(404).send({

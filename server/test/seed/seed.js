@@ -6,8 +6,8 @@ const jwt = require('jsonwebtoken');
 const userOneId = new ObjectID();
 const userOneTwo = new ObjectID();
 const users = [{
-	_id: new ObjectID(),
-	username: userOneId,
+	_id: userOneId,
+	username: 'juztinlazaro',
 	email: 'juztinlazaro@gmail.com',
 	password: 'userOnePass',
 	tokens: [{
