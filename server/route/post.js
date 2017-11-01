@@ -2,10 +2,12 @@ const express = require('express');
 const todoPostRouter = express.Router();
 var fs = require('fs');
 var { TodoModel } = require('../models/todo.model');
+const { authenticate } = require('../middleware/authenticate');
 
-todoPostRouter.post('/', (req, res) => {
+todoPostRouter.post('/', authenticate, (req, res) => {
 	var todo = new TodoModel({
-		text: req.body.text
+		text: req.body.text,
+		_creator: req.user._id
 	});
 
 	var postlogObj = {

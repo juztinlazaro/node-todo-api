@@ -3,8 +3,9 @@ const express = require('express');
 const todoGetByIdRouter = express.Router();
 
 var { TodoModel } = require('../models/todo.model');
+const { authenticate } = require('../middleware/authenticate');
 
-todoGetByIdRouter.get('/:id', (req, res) => {
+todoGetByIdRouter.get('/:id', authenticate, (req, res) => {
 	const id = req.params.id;
 
 	//Check first if the ID is valid
@@ -15,7 +16,10 @@ todoGetByIdRouter.get('/:id', (req, res) => {
 		});
 	}
 
-	TodoModel.findById(id).then((todo) => {
+	TodoModel.findOne({
+		_id: id,
+		_creator: req.user._id
+	}).then((todo) => {
 		if(!todo) {
 			res.status(404).send({
 				statusMessage: 'todo not exist!',

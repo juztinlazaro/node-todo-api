@@ -5,7 +5,7 @@ const { app } = require('../../server');
 const { UserModel } = require('./../models/user.model');
 const {users, populateUsers} = require('./seed/seed');
 
-describe('LOGOU users/me/token', () => {
+describe('LOGOUT users/me/token', () => {
 	beforeEach(populateUsers);
 
 	it('should be remove', (done) => {
@@ -18,7 +18,7 @@ describe('LOGOU users/me/token', () => {
 					return done(err);
 				}
 				UserModel.findById(users[1]._id).then((user) => {
-					expect(user.tokens.length).toBe(0);
+					expect(user.tokens.length).toBe(1);
 					done();
 				}).catch((e) => done(e));
 			});

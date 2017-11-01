@@ -2,9 +2,12 @@ const express = require('express');
 const todoGetRouter = express.Router();
 
 var { TodoModel } = require('../models/todo.model');
+const { authenticate } = require('../middleware/authenticate');
 
-todoGetRouter.get('/', (req, res) => {
-	TodoModel.find().then((todos) => {
+todoGetRouter.get('/', authenticate, (req, res) => {
+	TodoModel.find({
+		_creator: req.user._id
+	}).then((todos) => {
 		res.send({
 			todos,
 			status: 200

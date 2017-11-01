@@ -3,17 +3,19 @@ const request = require('supertest');
 
 const { app } = require('../../server');
 const { TodoModel } = require('./../models/todo.model');
-const {todos, populateTodos} = require('./seed/seed');
+const {todos, users, populateTodos, populateUsers} = require('./seed/seed');
 
 
 //wipe all of todos for testing
 describe('POST/todos/', () => {
 	beforeEach(populateTodos);
+	beforeEach(populateUsers);
 	
 	it('should create a new todo', (done) => {
 		var text = "Yoww";
 		request(app)
 			.post('/todos/post')
+			.set('x-auth', users[0].tokens[0].token)
 			.send({text})
 			.expect(200)
 			.expect((res) => {
@@ -35,6 +37,7 @@ describe('POST/todos/', () => {
 	it('Should not create todo with invalid body data', (done) => {
 		request(app)
 			.post('/todos/post')
+			.set('x-auth', users[0].tokens[0].token)
 			.send({})
 			.expect(400)
 			.end((err, res) => {
@@ -53,9 +56,10 @@ describe('POST/todos/', () => {
 		it('should get all todos', (done) => {
 			request(app)
 				.get('/todos/get')
+				.set('x-auth', users[0].tokens[0].token)
 				.expect(200)
 				.expect((res) => {
-					expect(res.body.todos.length).toBe(2);
+					expect(res.body.todos.length).toBe(1);
 				})
 				.end(done);
 		})

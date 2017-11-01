@@ -4,8 +4,9 @@ const express = require('express');
 const todoUpdateRouter = express.Router();
 
 var { TodoModel } = require('../models/todo.model');
+const { authenticate } = require('../middleware/authenticate');
 
-todoUpdateRouter.patch('/:id', (req, res) => {
+todoUpdateRouter.patch('/:id', authenticate, (req, res) => {
 	const id = req.params.id;
 	var body = _.pick(req.body, ['text', 'completed']);
 
@@ -23,7 +24,7 @@ todoUpdateRouter.patch('/:id', (req, res) => {
 		body.completedAt = null;
 	}
 
-	TodoModel.findByIdAndUpdate(id, {
+	TodoModel.findOneAndUpdate({ _id: id, _creator: req.user._id }, {
 		$set: body
 	}, { new: true }).then((todo) => {
 			if(!todo) {
