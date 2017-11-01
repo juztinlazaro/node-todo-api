@@ -29,7 +29,7 @@ describe('POST user/me', () => {
 					expect(user).toExist();
 					expect(user.password).toNotBe(password);
 					done();
-				});
+				}).catch((e) => done(e));
 			})
 	});
 

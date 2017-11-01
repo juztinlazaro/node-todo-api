@@ -69,6 +69,17 @@ UserSchema.methods.generateAuthToken = function () {
 	});
 };
 
+UserSchema.methods.removeToken = function (token) {
+	var user = this;
+	
+	//$pull operator remove items in array that match
+	user.update({
+		$pull: {
+			tokens: { token: token }
+		}
+	})
+};
+
 //instance method
 UserSchema.statics.findByToken  = function(token) {
 	var User = this;
@@ -128,6 +139,7 @@ UserSchema.pre('save', function(next) {
 });
 
 // User || email - required - trim - set type - set minlength of 1
+
 let UserModel =  mongoose.model('Users', UserSchema);
 
 module.exports = { UserModel };
