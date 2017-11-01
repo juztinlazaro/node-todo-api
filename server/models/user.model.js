@@ -57,7 +57,7 @@ UserSchema.methods.generateAuthToken = function () {
 	var token = jwt.sign({
 		_id: user._id.toHexString(),
 		access
-	}, 'abc123').toString();
+	}, 'abc123', { expiresIn: '1h' }).toString();
 
 	user.tokens.push({
 		access,
@@ -71,9 +71,8 @@ UserSchema.methods.generateAuthToken = function () {
 
 UserSchema.methods.removeToken = function (token) {
 	var user = this;
-	
 	//$pull operator remove items in array that match
-	user.update({
+	return user.update({
 		$pull: {
 			tokens: { token: token }
 		}

@@ -5,9 +5,12 @@ const { authenticate } = require('../middleware/authenticate');
 
 logoutRoute.delete('/', authenticate, (req, res) => {
 	req.user.removeToken(req.token).then(() => {
-		return res.status(200).send();
-	}).catch((error) => {
-		res.status(400).send({error});
+		res.status(200).send({
+			status: 200,
+			statusMessage: 'user logout'
+		});
+	}, () => {
+		res.status(400).send();
 	});
 });
 
