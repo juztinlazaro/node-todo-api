@@ -18,7 +18,7 @@ describe('POST user/me', () => {
 			.send({username, email, password})
 			.expect(200)
 			.expect((res) => {
-				expect(res.headers['x-auth']).toExist();
+				expect(res.headers['x-auth']).toBeTruthy();
 			})
 			.end((err) => {
 				if(err) {
@@ -26,8 +26,8 @@ describe('POST user/me', () => {
 				}
 
 				UserModel.findOne({email}).then((user) => {
-					expect(user).toExist();
-					expect(user.password).toNotBe(password);
+					expect(user).toBeTruthy();
+					expect(user.password).not.toBe(password);
 					done();
 				}).catch((e) => done(e));
 			})

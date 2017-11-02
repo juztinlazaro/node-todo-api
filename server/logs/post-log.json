@@ -8755,4 +8755,434 @@
     "message": "Todos validation failed: text: Path `text` is required.",
     "name": "ValidationError"
   }
+}{
+  "timeStamp": "Thu Nov 02 2017 18:56:12 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59faf9ccf81a271a9ccf521e",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 18:56:15 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhdsadsadasoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59faf9cf436dbe24447fde6c",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 18:59:38 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafa9a79d43417ccc78ca3",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 18:59:54 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafaaa9c9b902b8838b010",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:00:16 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafac0a4dd3e01b4537223",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:00:55 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafae739227a031051bf0a",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:01:57 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafb25fb7b5233140f86bf",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:02:59 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafb63320f42111c787580",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:03:44 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhoguht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafb90b5696729a8f0e8ad",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:04:49 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhog312312321uht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafbd1e5f615208cc2a8d5",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:04:55 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhog312313213212321uht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafbd7e6f00c207086a915",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 19:05:29 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "rhog312313213212321uht",
+    "_creator": "59faf9c1f81a271a9ccf521c",
+    "_id": "59fafbf9fe2deb1384641ae4",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:11:07 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb3587b001a40cdc057ba1",
+    "_id": "59fb358bb001a40cdc057bc4",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:11:07 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:17:46 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb37161459b71244497231",
+    "_id": "59fb371a1459b71244497254",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:17:46 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:18:46 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb37535db818142c18abff",
+    "_id": "59fb37565db818142c18ac22",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:18:47 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:19:54 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb3797b402d116b090bfd7",
+    "_id": "59fb379ab402d116b090bffa",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:19:55 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:20:25 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb37b65fae532d8c6f0b6e",
+    "_id": "59fb37b95fae532d8c6f0b91",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:20:26 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:27:10 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb394b84a6ca2404ed0959",
+    "_id": "59fb394e84a6ca2404ed097c",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:27:10 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:28:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb3981c521541aecbe1ae1",
+    "_id": "59fb3985c521541aecbe1b04",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:28:05 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:29:17 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb39cad233df0f0c62c855",
+    "_id": "59fb39cdd233df0f0c62c878",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:29:17 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:29:46 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb39e739371f050cdf03f6",
+    "_id": "59fb39ea39371f050cdf0419",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:29:46 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
+}{
+  "timeStamp": "Thu Nov 02 2017 23:34:25 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "__v": 0,
+    "text": "Yoww",
+    "_creator": "59fb3afeaaabba15b824017e",
+    "_id": "59fb3b01aaabba15b82401a1",
+    "completedAt": null,
+    "completed": false
+  }
+},{
+  "timeStamp": "Thu Nov 02 2017 23:34:26 GMT+0800 (Malay Peninsula Standard Time)",
+  "data": {
+    "errors": {
+      "text": {
+        "message": "Path `text` is required.",
+        "name": "ValidatorError",
+        "properties": {
+          "type": "required",
+          "message": "Path `{PATH}` is required.",
+          "path": "text"
+        },
+        "kind": "required",
+        "path": "text",
+        "$isValidatorError": true
+      }
+    },
+    "_message": "Todos validation failed",
+    "message": "Todos validation failed: text: Path `text` is required.",
+    "name": "ValidationError"
+  }
 }

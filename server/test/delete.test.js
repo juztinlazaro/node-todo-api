@@ -25,7 +25,7 @@ describe('DELETE /todos/', () => {
 				} 
 
 				TodoModel.findById(hexId).then((todo) => {
-					expect(null).toNotExist();
+					expect(null).toBeFalsy();
 					done();
 				}).catch((err) => done(err));
 			});
@@ -43,7 +43,7 @@ describe('DELETE /todos/', () => {
 				} 
 
 				TodoModel.findById(hexId).then((todo) => {
-					expect(todo).toExist();
+					expect(todo).toBeTruthy();
 					done();
 				}).catch((err) => done(err));
 			});

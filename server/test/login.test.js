@@ -18,7 +18,7 @@ describe('POST users/login', () => {
 			.expect(200)
 			.expect((res) => {
 				const header = res.headers['x-auth'];
-				expect(header).toExist();
+				expect(header).toBeTruthy();
 			})
 			.end((err, res) => {
 				if(err) {
@@ -26,7 +26,7 @@ describe('POST users/login', () => {
 				}
 
 				UserModel.findById(users[1]._id).then((user) => {
-					expect(user.tokens[1]).toInclude({
+					expect(user.toObject().tokens[1]).toMatchObject({
 						access: 'auth',
 						token: res.headers['x-auth']
 					});
@@ -46,7 +46,7 @@ describe('POST users/login', () => {
 			})
 			.expect(400)
 			.expect((res) => {
-				expect(res.headers['x-auth']).toNotExist();
+				expect(res.headers['x-auth']).toBeFalsy();
 			})
 			.end((err, res) => {
 				if(err) {
