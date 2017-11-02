@@ -26,9 +26,8 @@ describe('GET user/me', () => {
       .expect(401)
       .expect((res) => {
         expect(res.body).toEqual({
-        	"error": "Undefined token",
-      		"status": 401,
-      		"statusMessage": "Auth token is undefined"
+          error: 'jwt must be provided', 
+          status: 401
         })
       })
       .end(done);

@@ -6,13 +6,12 @@ const { UserModel } = require('../models/user.model');
 
 loginRoute.post('/', (req, res) => {
 	let body =_pick(req.body, ["username", "email", "password"]);
-  
    UserModel.findByCredentials(body.username, body.email, body.password).then((user) => {
   	return user.generateAuthToken().then((token) => {
   		res.header('x-auth', token).status(200).send({
 				user,
 				status: 200
-			})
+			});
   	});
   }).catch((error) => {
   	res.status(400).send({

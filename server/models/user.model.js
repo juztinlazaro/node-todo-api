@@ -9,7 +9,8 @@ const UserSchema = new mongoose.Schema({
 		type: String,
 		required: true,
 		trim: true,
-		minlength: 1
+		minlength: 1,
+		unique: true
 	},
 	email: {
 		type: String,
@@ -57,7 +58,7 @@ UserSchema.methods.generateAuthToken = function () {
 	var token = jwt.sign({
 		_id: user._id.toHexString(),
 		access
-	}, 'abc123', { expiresIn: '1h' }).toString();
+	}, process.env.JWT_SECRET, { expiresIn: '20s' } ).toString();
 
 	user.tokens.push({
 		access,
@@ -82,23 +83,45 @@ UserSchema.methods.removeToken = function (token) {
 //instance method
 UserSchema.statics.findByToken  = function(token) {
 	var User = this;
-	var decoded; 
 
-	try {
-		decoded = jwt.verify(token, 'abc123');
-	} catch(e) {
-		// return new Promise((resolve, reject) => {
-		// 	reject();
-		// })
+	return new Promise((resolve, reject) => {
+    jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
+      if(err) {
+        // var delete_token = User.update({
+        //   $pull: {
+        //     tokens: { token: token }
+        //   }
+        // }, (e, result) => {
+        // 	console.log('err', e);
+        // 	console.log('se', result);
+        // });
+        reject(err.message);
+     } else {
+        const data = User.findOne({
+          '_id': decoded._id,
+          'tokens.token': token,
+          'tokens.access': 'auth'
+        });
+        resolve(data);
+      }
+    })
+  });
 
-		return Promise.reject('Undefined token');
-	}
+ // try { old
+	// 	decoded = jwt.verify(token, process.env.JWT_SECRET);
+	// } catch(e) {
+	// 	// return new Promise((resolve, reject) => {
+	// 	// 	reject();
+	// 	// })
 
-	return User.findOne({
-		'_id': decoded._id,
-		'tokens.token': token,
-		'tokens.access': 'auth'
-	});
+	// 	return Promise.reject('Undefined token');
+	// }
+
+	// return User.findOne({
+	// 	'_id': decoded._id,
+	// 	'tokens.token': token,
+	// 	'tokens.access': 'auth'
+	// });
 };
 
 UserSchema.statics.findByCredentials = function(username, email, password) {
