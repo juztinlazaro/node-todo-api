@@ -10,7 +10,8 @@ loginRoute.post('/', (req, res) => {
   	return user.generateAuthToken().then((token) => {
   		res.header('x-auth', token).status(200).send({
 				user,
-				status: 200
+				status: 200,
+        statusMessage: 'User has been login'
 			});
   	});
   }).catch((error) => {

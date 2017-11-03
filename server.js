@@ -5,14 +5,6 @@ const hbs = require('hbs');
 const fs = require('fs');
 
 var { mongoose } = require('./server/db/mongoose.js')
-var { TodoModel } = require('./server/models/todo.model');
-var { UserModel } = require('./server/models/user.model');
-
-var { todoGetRouter } = require('./server/route/get');
-var { todoPostRouter } = require('./server/route/post');
-var { todoGetByIdRouter } = require('./server/route/getById');
-var { todoDeleteRouter } = require('./server/route/delete');
-var { todoUpdateRouter } = require('./server/route/update');
 var { route } = require('./server/route/routes');
 
 var app = express();
@@ -24,7 +16,6 @@ app.set('view engine', 'hbs');
 
 //Middleware
 app.use(bodyParser.json());
-//middleware for static html or file
 
 //custom
 app.use((req, res, next) => {

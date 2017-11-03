@@ -7,11 +7,11 @@ var authenticate = (req, res, next) => {
  	if(!user) {
  		return Promise.reject();
  	}
-
  	req.user = user;
  	req.token = token;
  	next();
  }).catch((error) => {
+ 	console.log(error);
  		res.status(401).send({
  			error,
  			status: 401

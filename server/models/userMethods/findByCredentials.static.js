@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
-const { UserSchema } = require('../user.model');
 const bcrypt = require('bcryptjs');
 
 module.exports = (UserSchema) => {
-  UserSchema.methods.findByCredentials = function(username, email, password) { 
-  	var User = this;
+  UserSchema.statics.findByCredentials = function(username, email, password) {
+		var User = this;
 
 		return User.findOne({email}).then((user) => {
 			if(!user) {
@@ -21,5 +20,5 @@ module.exports = (UserSchema) => {
 				});
 			});
 		});
-  }
+	};
 }
